@@ -1,0 +1,30 @@
+/* import fonts : Josefin Sans */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+/* import fonts : Alata */
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+/* style variables */
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --dark-gray-color: #8c8c8c;
+  --very-dark-gray-color: #696969;
+  --font-alata: "Alata", sans-serif;
+  --font-josefin-sans: "Josefin Sans", sans-serif;
+  --font-size: 15px;
+}
+
+/* Reset style */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: var(--white-color);
+  font-size: var(--font-size);
+}
