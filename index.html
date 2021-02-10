@@ -25,38 +25,42 @@
   <body>
     <!-- Main Header -->
     <header id="main-header">
-      <img class="logo" src="./images/logo.svg" alt="logo" />
-      <img
-        class="icon-open"
-        src="./images/icon-hamburger.svg"
-        alt="Open Menu"
-      />
-      <nav class="nav">
+      <div class="container">
         <img class="logo" src="./images/logo.svg" alt="logo" />
         <img
-          class="icon-close"
-          src="./images/icon-close.svg"
-          alt="Close Menu"
+          class="icon-open"
+          src="./images/icon-hamburger.svg"
+          alt="Open Menu"
         />
-        <ul class="nav-list">
-          <li><a href="#">about</a></li>
-          <li><a href="#">careers</a></li>
-          <li><a href="#">events</a></li>
-          <li><a href="#">products</a></li>
-          <li><a href="#">support</a></li>
-        </ul>
-      </nav>
+        <nav class="nav">
+          <img class="logo" src="./images/logo.svg" alt="logo" />
+          <img
+            class="icon-close"
+            src="./images/icon-close.svg"
+            alt="Close Menu"
+          />
+          <ul class="nav-list">
+            <li><a href="#">about</a></li>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">events</a></li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">support</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- End Header -->
     <!-- Hero -->
     <section class="hero">
-      <div class="hero-heading">
-        <h1 class="hero-heading-text">immersive experiences that deliver</h1>
+      <div class="container">
+        <div class="hero-heading">
+          <h1 class="hero-heading-text">immersive experiences that deliver</h1>
+        </div>
       </div>
     </section>
     <!-- End Hero -->
     <!-- Interactive -->
-    <section id="interactive">
+    <section id="interactive" class="container">
       <div class="col-1">
         <img
           class="interactive-image"
@@ -75,45 +79,73 @@
       </div>
     </section>
     <!-- End Interactive  -->
+    <!-- Our creations -->
     <section id="our-creations">
-      <div class="our-creations-heading">
-        <h1 class="heading-text">Our creations</h1>
-      </div>
-      <div class="creations">
-        <div class="creation">
-          <p class="creation-title">
-            DEEP<br />
-            EARTH
-          </p>
+      <div class="container">
+        <div class="our-creations-heading">
+          <h1 class="heading-text">Our creations</h1>
         </div>
-        <div class="creation">
-          <p class="creation-title">NIGHT<br />ARCADE</p>
+        <div class="creations">
+          <div class="creation">
+            <p class="creation-title">
+              DEEP<br />
+              EARTH
+            </p>
+          </div>
+          <div class="creation">
+            <p class="creation-title">NIGHT<br />ARCADE</p>
+          </div>
+          <div class="creation">
+            <p class="creation-title">SOCCER<br />TEAM VR</p>
+          </div>
+          <div class="creation">
+            <p class="creation-title">THE<br />GRID</p>
+          </div>
+          <div class="creation">
+            <p class="creation-title">FROM UP<br />ABOVE VR</p>
+          </div>
+          <div class="creation">
+            <p class="creation-title">POCKET<br />BOREALS</p>
+          </div>
+          <div class="creation">
+            <p class="creation-title">THE<br />CURIOSITY</p>
+          </div>
+          <div class="creation">
+            <p class="creation-title">MAKE IT<br />FISHEYE</p>
+          </div>
         </div>
-        <div class="creation">
-          <p class="creation-title">SOCCER<br />TEAM VR</p>
+        <div class="sell-all-creations">
+          <a href="#" class="see-all-btn">see all</a>
         </div>
-        <div class="creation">
-          <p class="creation-title">THE<br />GRID</p>
-        </div>
-        <div class="creation">
-          <p class="creation-title">FROM UP<br />ABOVE VR</p>
-        </div>
-        <div class="creation">
-          <p class="creation-title">POCKET<br />BOREALS</p>
-        </div>
-        <div class="creation">
-          <p class="creation-title">THE<br />CURIOSITY</p>
-        </div>
-        <div class="creation">
-          <p class="creation-title">MAKE IT<br />FISHEYE</p>
-        </div>
-      </div>
-      <div class="sell-all-creations">
-        <a href="#" class="see-all-btn">see all</a>
       </div>
     </section>
-    <!-- Main Script -->
+    <!-- End Our Creations -->
     <!-- Footer -->
+    <footer id="main-footer">
+      <div class="container">
+        <section class="footer-container">
+          <div class="col-1">
+            <img class="logo" src="./images/logo.svg" alt="logo" />
+            <ul class="menu">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul class="social-icons">
+              <li><img src="./images/icon-facebook.svg" alt="facebook" /></li>
+              <li><img src="./images/icon-twitter.svg" alt="twitter" /></li>
+              <li><img src="./images/icon-pinterest.svg" alt="pinterest" /></li>
+              <li><img src="./images/icon-instagram.svg" alt="instagram" /></li>
+            </ul>
+            <p id="copy">&copy; 2021 Loopstudios. All rights reserved</p>
+          </div>
+        </section>
+      </div>
+    </footer>
     <!-- End Footer -->
     <script src="./js/main.js"></script>
   </body>
